@@ -4,7 +4,6 @@ import { View, Text, StyleSheet } from 'react-native';
 const ArregloDividido = () => {
     const arreglo = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
 
-    // Usamos map para dividir cada valor por 5
     const divididos = arreglo.map((val: number, index: number) => {
         return { key: index, value: val / 5 };
     });
